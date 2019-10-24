@@ -23,6 +23,6 @@ def shift_with_args(array)
 end
 
 def using_concat(array,array)
-  [array].concat[array]
+  [element, element].concat([element, element])
 end
 
