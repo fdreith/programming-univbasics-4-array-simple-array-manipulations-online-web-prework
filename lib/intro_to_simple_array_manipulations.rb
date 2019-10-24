@@ -1,7 +1,5 @@
-def using_push (colors_in_the_rainbow, next_color)
-  colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-  next_color = "violet"
-  colors_in_the_rainbow.push(next_color)
+def using_push (array, element)
+  array.push(element)
 end
 
 def using_unshift (array, element)
@@ -12,11 +10,11 @@ def using_pop (array)
   array.pop
 end
 
-def pop_with_args
+def pop_with_args(array)
   array.pop(2)
 end
 
-def using_shift
-  array.shift
+def using_shift(array, element)
+  array.shift(element)
   
 end
