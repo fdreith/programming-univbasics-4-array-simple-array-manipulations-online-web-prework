@@ -4,13 +4,12 @@ def using_push (colors_in_the_rainbow, next_color)
   colors_in_the_rainbow.push(next_color)
 end
 
-def using_unshift (array, item)
-  array.unshift(item)
+def using_unshift (array, element)
+  array.unshift(element)
 end
 
-def using_pop (continents, deleted_string)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania","Antarctica" ]
- continents.pop
+def using_pop (array, element)
+  array.pop
 end
 
 def pop_with_args
