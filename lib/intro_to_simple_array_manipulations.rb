@@ -9,14 +9,14 @@ def using_unshift (array, element)
 end
 
 def using_pop (array, element)
-  element = array.pop
+  array.pop
 end
 
 def pop_with_args
-  element = array.pop(2)
-  
+  array.pop(2)
 end
 
-def using_unshift
+def using_shift
+  array.shift
   
 end
